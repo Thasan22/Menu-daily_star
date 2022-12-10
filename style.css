@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    color: cornflowerblue;
+}
+p{
+    color: rgb(70, 70, 70);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.bar{
+    background-color: rgba(0, 0, 0, 0.705);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.bar ul li{
+    display: inline-block;
+}
+
+.bar ul li a{
+    color: rgba(255, 255, 255, 0.822);
+    padding: 15px;
+    display: inline-block;
+    margin: auto;
+    transition: 300ms;
+}
+
+.bar ul li:hover a{
+    background-color: white;
+    color: black;
+}
+
+#margin{
+    color: black;
+}
